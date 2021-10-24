@@ -1,0 +1,41 @@
+#Paragraph_1
+{
+    font-family: "Arial";
+}
+
+#Paragraph_2
+{
+    font-family: "Calibri";
+}
+
+.Image_1
+{
+    max-width: 50px;
+    max-height: 50px;
+    float: left;
+    margin: 20px;
+    float: right;
+}
+
+.Image_2 
+{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    text-align:center;
+    position:relative;
+}
+
+.text_over_image
+{
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left:0;
+    right:0;
+    bottom:0;
+    color: black;
+    border-style: dotted;
+    border-width: 2px;
+    border-radius: 10px;
+}
